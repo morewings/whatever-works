@@ -1,7 +1,7 @@
 import type {ReactNode} from 'react';
 import {ReactQueryDevtools} from '@tanstack/react-query-devtools';
 
-import {AppProvider} from '@/src/components/AppProvider';
+import {AppProvider} from '@/components/AppProvider';
 import './index.css';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 export default function RootLayout({children}: Props) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body>
+            <body className="font-sans">
                 <AppProvider>
                     {children}
                     <ReactQueryDevtools />

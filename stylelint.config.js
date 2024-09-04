@@ -16,6 +16,12 @@ module.exports = {
                 message: 'Expected "%s" variable name to be lower camelCase',
             },
         ],
+        'at-rule-no-unknown': [
+            true,
+            {
+                ignoreAtRules: ['tailwind'],
+            },
+        ],
     },
     plugins: ['stylelint-order'],
     ignoreFiles: ['**/*.snap'],

@@ -20,6 +20,7 @@ module.exports = {
         'plugin:react-hooks/recommended',
         'next/core-web-vitals',
         'plugin:ssr-friendly/recommended',
+        'plugin:tailwindcss/recommended',
         'plugin:prettier/recommended',
     ],
     parser: '@typescript-eslint/parser',

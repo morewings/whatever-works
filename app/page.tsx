@@ -1,17 +1,15 @@
 import type {Metadata} from 'next';
 import {Fragment} from 'react';
 
-import {Counter} from '@/src/components/Counter';
-import Random from '@/src/components/Random';
-import {NavHeader} from '@/src/layout/NavHeader';
+import {Items} from '@/components/Items';
+import {NavHeader} from '@/components/NavHeader';
 
 export default function IndexPage() {
     return (
         <Fragment>
             <NavHeader />
             <main>
-                <Counter />
-                <Random />
+                <Items />
             </main>
         </Fragment>
     );
